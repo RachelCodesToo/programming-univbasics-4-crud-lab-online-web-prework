@@ -1,13 +1,15 @@
 def create_an_empty_array
-  
+  []
 end
 
 def create_an_array
-  
+  ["sun", "moon", "stars", "sky"]
 end
 
 def add_element_to_end_of_array(array, element)
-  
+  ["array"]
+  add_element_to_start_of_array.push("clouds")
+  p add_element_to_start_of_array
 end
 
 def add_element_to_start_of_array(array, element)
