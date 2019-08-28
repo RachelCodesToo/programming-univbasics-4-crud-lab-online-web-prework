@@ -6,7 +6,7 @@ def create_an_array
   ["sun", "moon", "stars", "sky"]
 end
 
-def add_element_to_end_of_array(array, element)
+def add_element_to_end_of_array(, element)
   ["sun","moon", "stars", "sky"]
   add_element_to_start_of_array << "clouds"
 end
